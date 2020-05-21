@@ -9,7 +9,6 @@ as described in [Introduction to Information Retrieval](https://nlp.stanford.edu
 However, for better presentation and to prevent numerical underflow we take the averaged exponential of the sum of log likelihoods for each query term instead of calculating the product of their probabilities. 
 Given the rather short and incoherent profile text snippets, the model uses Maximum Likelihood Estimation based on a unigram language model:<br>
 ![Applied QLM formula](qlm-formula.png)
-<br>
 Where 
 * tf (i, C) is the frequency of the i-th query term in the whole collection, 
 * |C| is the length (number of words) of the collection,
