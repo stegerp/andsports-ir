@@ -4,7 +4,10 @@ for the andsports profile search.
 
 ## IR implementations
 This collection includes drafts for the following IR techniques:
-* [Query likelihood model](https://en.wikipedia.org/wiki/Query_likelihood_model)<br> The implementation is inspired by [the estimation of the query generation probability](https://nlp.stanford.edu/IR-book/html/htmledition/estimating-the-query-generation-probability-1.html)
+
+### [Query likelihood model](https://en.wikipedia.org/wiki/Query_likelihood_model)
+
+The implementation is inspired by [the estimation of the query generation probability](https://nlp.stanford.edu/IR-book/html/htmledition/estimating-the-query-generation-probability-1.html)
 as described in [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/) (Christopher D. Manning, Prabhakar Raghavan and Hinrich Schütze, 2008).
 However, for better presentation and to prevent numerical underflow we take the averaged exponential of the sum of log likelihoods for each query term instead of calculating the product of their probabilities. 
 Given the rather short and incoherent profile text snippets, the model uses Maximum Likelihood Estimation based on a unigram language model:<br>
