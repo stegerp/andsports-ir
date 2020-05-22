@@ -30,7 +30,7 @@ https://www.andsports.com/en/filter-cities-and-sports, which still does a good j
 | campo-de-futbol-la-albufereta 	| 0.9635697663936815 	|
 | campo-de-futbol-virgen-del-remedio 	| 0.9635697663936815 	|
 | club-polideportivo-ejido 	| 0.9635697663936815 	|
-https://alcorcon.andsports.com/es/club-osos-rugby-subacuatico-madrid (prevails *quiero* and *jugar*)
+https://alcorcon.andsports.com/es/club-osos-rugby-subacuatico-madrid (prevails *querer* and *jugar*)
 
 ### karate en un gimnasio
 | andsports url 	| score 	|
@@ -62,6 +62,8 @@ https://zaragoza.andsports.com/es/gimnasio-karate-kan (no comment)
 | escuela-de-danza-madrid-47 	| 0.9779634628416876 	|
 https://jaca.andsports.com/es/river-guru (my favourite, do you see it :-))
 
+
+Try out yourselve!
  
  <!-- 
  https://www.tablesgenerator.com/markdown_tabless
